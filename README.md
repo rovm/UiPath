@@ -1,7 +1,6 @@
-# UiPath
-UiPath(rpa)
+# UiPath(RPA)
 
-RPA
+RPA란?
 로봇소프트웨어가 수행하독록 하는 자동화 솔루션
 
 1. 반복적
