@@ -1,0 +1,16 @@
+<실습1>
+(Level1)Split 기초단계
+① 번문제 → TaxID: RO123456
+② 번문제 → Name: Godmother Catering
+③ 번문제 → Address: Strada Flamanda 45
+④ 번문제 → City: Bucuresti, Romania
+
+(Level2)Split 중급단계
+⑤ 번문제 → Name: Godmother Catering
+⑥ 번문제 → Address: Strada Flamanda 45
+⑦ 번문제 → City: Bucuresti, Romania
+
+
+<실습3>
+1) "r0ck_st%r"
+2) "   mock    st%r    "

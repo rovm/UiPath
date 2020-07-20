@@ -1,0 +1,401 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="653.6,720" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="21">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="15">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart sap:VirtualizedContainerService.HintSize="633.6,660" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,75.2</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,107.7 180,107.7 180,313.6 300,313.6 300,343.6</av:PointCollection>
+        <x:Double x:Key="Height">622.81999999999994</x:Double>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID0</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,135.6</av:Point>
+          <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Session20.1_Image 액티비티" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="x:Boolean" Name="Bln_Image" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+          <ui:CommentOut.Body>
+            <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'MyCRM.exe My'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAfCAYAAACh+E5kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHfSURBVFhH7ZZLq0FRGIbxj9wG/As/QbnPGBowNqXcBgzFRJmZK3IrBi7lMiWKYoDwnr7VxmFvJ5ddrMNTb+31rU952sv6KObzOX5ns9lgu91yE5EAb/kKvDoigU6ng2azyU3OBGazGbLZLOLxOMLhMBeRFPD7/XC5XFxEUsDn8yEWi2EwGLx9rgqkUinwwM0ChUIBiUQCuVxOqJyYTCZIJpOYTqdsTReBVN8B2ut2u8LqOW4WsFgsUCgU0Ov1QuVEuVyGSqVCrVZj60gkAp1Ox54v2e/30Gq17IjKwWcJmEwmpNNpGI3GsyNwKTAajY59dJwOtNttGAwGZDIZ1iMHdwk4nc7jl63X68KOWICoVCpQKpWStWq1KlSe524BurrMZjNCodDxLUgJDIdD1hcMBlkfvQl6phrtycXdAsRut4NarWYTm5ASIOi8azQadt6j0ejV38UzfKYA0Wg04Ha7EQgErgoQhz6Px8P+fMnNwwKE1WqFw+H4U4Cw2Wyw2+3CSl6eEqDp6/V6WT+XAgQNLRpwX4EHuVmg3++zGXAJTdRisYhSqYTlcilUz7n2WTm4WeBd+Qq8mv8pkM/n0Wq1MB6P3z5nApRer8dulsViwUVEAqvVCuv1mpuIBPjKHD9ixxMDaxfLZQAAAABJRU5ErkJggg==" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+            </Sequence>
+          </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:CommentOut>
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+          <ui:CommentOut.Body>
+            <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:WaitImageAppear FoundElement="{x:Null}" DisplayName="Find Image 'MyCRM.exe My'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitImageAppear_2">
+                <ui:WaitImageAppear.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAACcAAAAaCAYAAAA0R0VGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAI1SURBVFhH7ZU5zzFRFMffREOB+ARCQqdTCq1KIloJsTUKOioSCSoNNZ1CQWyVwlJQ2BpbgkgIQWH5BufJvclMnpm5Y5mn8BaKX8I5/zv5557l/rvf7/C/8jUnlK85ofCaOx6PEAqFwOPxEMnn81h3Op0gHA5Dp9PhfOOvPDQXDAbBbrdzUCqVEAgEsG6324FarYZcLsf5xl95q6yXywX6/T44nU5IJBI4djgcwGw2Q7FY5Ogfgc71ej04n8/EPOItc9vtFjQaDWSzWbher3Qcmb7dbgztM+r1OigUChiNRsQ84mVzrVYLDAYDFAoF2Gw2dBzdgMVigXK5TOv0ej0Dt9tN6ylqtRpIpVIYDoecHMXL5iqVCsjlchiPx4w4u+eq1SqIxWI8JKlUChOLxcDv98N6vabPLRYLSKfTuBpUjM1L5rrdLsTjcfD5fLBarRg5kjmZTMYoF3VLj0pI4qm5yWQCkUgEHA4HMf9RczabDa8N1PSk/EfNWa1WeqeREGqu3W6D0WiE6XRKx9jwmqNeiGg0Co1Gg6hBCDVHxQRNK5oilUoFLpcLMpkMh2aziXUkcxKJBPcppUXD5PV6GcM0GAxwbLlc0jE2vOb2+z3e/DqdjkgymcQ66oUolUr4PzInEolAq9XSWr5hesbDnkOvABoEEr9fCPSbeiGosqKbIWnfgWgOlYy95fkwmUwwm83os6SeEwrR3Hw+p7f7M9CWR333+yw7JpSHZf00X3NC+ZoTxh1+AE6MBkdNcrYrAAAAAElFTkSuQmCC" />
+                </ui:WaitImageAppear.Image>
+                <ui:WaitImageAppear.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:WaitImageAppear.Target>
+              </ui:WaitImageAppear>
+            </Sequence>
+          </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:CommentOut>
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+          <ui:CommentOut.Body>
+            <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ImageFound DisplayName="Image Exists 'MyCRM.exe My'" Found="[Bln_Image]" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="ImageFound_1">
+                <ui:ImageFound.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAiCAYAAAAZHFoXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJLSURBVFhH7ZU5r2lRFIBfoqFA/AIhodMphVYlEa2EmBoFHRWJBJWGmk6hIKZKYSgoTI0pQSSEoDD8g/Wyd3JOLrbxXfdcL6f4EtZa+yTfOXut9ed4PMInwwowDSvANKwA0/y/Auv1GjweD9hsNiLJZBLXbTYb8Hq9UKvVLp7xE9wUcLvdYDQaLxCLxeByuXDdYrEAqVQKiUTi4hk/wVNXaLfbQbPZBLPZDKFQCMdWqxVotVpIp9MX9bdA5xqNBmy3W2L+UZ4SmM/nIJPJIB6Pw36/p+NI7HA4nNTeo1gsgkgkgk6nQ8w/ysMClUoFVCoVpFIpmM1mdBy9SZ1OB9lslq5TKpUnWK1Wup6iUCgAn8+Hdrt9kXuGhwVyuRwIhULodrsn8fMeyOfzwOVycWNHIhFMIBAAp9MJ0+mUPjcajSAajeKvSsVe4SGBer0OwWAQHA4HTCaTkxxJQCAQnFwN6m3/63UhcVeg1+uBz+cDk8lEzP96AYPBgEcmalRS/tcL6PV6euaTeFWgWq2CWq2Gfr9Px17hqgC1if1+P5RKJWIN4lUBKva2KYSmg0QiAYvFArFY7IJyuYzrSAI8Hg/3DVWLBoDdbj8ZAK1WC8fG4zEde4WrAsvlEm9YhUJBJBwO4zpqE2cyGfwfCXA4HJDL5XTttQHwHdzsAbRtUfOS+LqJ0W9qE1NXCL1hUu13QxRA1+N8m15Do9HAYDCgz5J64J0QBYbDIb1F74G2KeqDr2fPY+/k5hX6BFgBpmEFmIYVYBpWgGk+XOAIfwGvtjiEzJC2NQAAAABJRU5ErkJggg==" />
+                </ui:ImageFound.Image>
+                <ui:ImageFound.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;" TimeoutMS="3000">
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ImageFound.Target>
+              </ui:ImageFound>
+            </Sequence>
+          </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:CommentOut>
+        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+          <ui:CommentOut.Body>
+            <Sequence DisplayName="무시된 액티비티" sap:VirtualizedContainerService.HintSize="524.8,304.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If Condition="[Bln_Image]" sap:VirtualizedContainerService.HintSize="483.2,212" sap2010:WorkflowViewState.IdRef="If_1">
+                <If.Then>
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230.4,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Yes" />
+                </If.Then>
+              </If>
+            </Sequence>
+          </ui:CommentOut.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:CommentOut>
+        <ui:WaitImageVanish DisplayName="Wait Image Vanish 'MyCRM.exe My'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitImageVanish_2">
+          <ui:WaitImageVanish.Image>
+            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAhCAYAAACP6GZlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJqSURBVGhD7ZY7aypREIAv2MRCg79AFExnl1K0tQqIbUCJjyaFdlopCGplo7V2KSwUX5WFj0ILX40vUBGUiFr4+AdzOQd2yWYnNxB3c703p/hAZ+Zs8e2Z2fl1Pp+BIYRJQWBSEJgUBCYFgUlBYFIQLpay3W4hEAiA2+1GeXl5oXW73Q6CwSA0m03RM64NSaT4/X54fHwUodVqwefz0br1eg16vR4ymYzoGdeGLO1zOByg0+mA0+mEWCxGY5vNBqxWK+RyOVH9nyDn2u027Pd7NC8HskhZrVZgMBggnU7D8Xjk40TW6XQS1H5GpVIBjUYD/X4fzcuB5FLq9TqYTCbIZrOwXC75OHnjDw8PUCgU+Lr7+3sBLpeLr+col8ugUqmg1+uJcnIhuZRisQi3t7cwGAwE8fczpVQqwc3NDR2+iUSCEolE4Pn5GRaLBX9uOp1CMpmkt4+LyY2kUlqtFkSjUfB6vTCfzwU5TIparRa0BXcrvrNVMCSTMhwOIRQKgcPhQPM/UordbqefXzJMsfyPlGKz2fidBOOrUhqNBpjNZhiNRnxMbi6Wwm204XAYqtUqWkP4qhQu9k99fchXQafTwdPTE6RSKRG1Wo3WYVKUSiWdQ1wtGdIej0cwpLvdLo3NZjM+JjcXS3l9faWbqtFoRInH47SO22jz+Tz9T6QoFAq4u7vjaz8a0t+NJDOFbK1kwGK83WjJb26j5dqH3ASs9m9ykRTSGu+30o+wWCwwHo/5s9hMuRYukjKZTPht9DPIVkrmytuz72PXgiTt87/BpCAwKQhMCgKTgsCkIDApCEwKApOCwKSIOMNvIznRlvQm/oIAAAAASUVORK5CYII=" />
+          </ui:WaitImageVanish.Image>
+          <ui:WaitImageVanish.Target>
+            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;">
+              <ui:Target.TimeoutMS>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:Target.TimeoutMS>
+              <ui:Target.WaitForReady>
+                <InArgument x:TypeArguments="ui:WaitForReady" />
+              </ui:Target.WaitForReady>
+            </ui:Target>
+          </ui:WaitImageVanish.Target>
+        </ui:WaitImageVanish>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,235.6</av:Point>
+          <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="이미지" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'MyCRM.exe My'" sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="ClickImage_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+          <ui:ClickImage.CursorPosition>
+            <ui:CursorPosition Position="Center">
+              <ui:CursorPosition.OffsetX>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:CursorPosition.OffsetX>
+              <ui:CursorPosition.OffsetY>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:CursorPosition.OffsetY>
+            </ui:CursorPosition>
+          </ui:ClickImage.CursorPosition>
+          <ui:ClickImage.Image>
+            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAhCAYAAAA1S+4FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAATjSURBVGhD7ZrHS+1aFMaPBRV07NiZDuwN/SdUUEQRrFhBLDhSEFR0IiqoWLGAoNhF53awN6xDy8SKDlTs6/Ltk5y3k5MTjz55bN/NB4tr1srKSvZvJ3sl55ru7u7IMHHNACS4GYAENwOQ4GYAEtwMQIIbA3R2dkbHx8eGCWim29tbGh8fp97eXsMENAug6upqKikpMUwwswAqLy+n+vp6WlxcNEwgUwAaGBggXrOzs9Ta2sqsra2Nrq6upIhZHx8fNDIyQgcHB5LnH83NzSlyLy8vpYi+cDw5j7f9/X1WRys2PDzMzgWan59XxC4uLphvZmaGxW1pbGxMkSfb3t4ei19fX1N7e7vFrz7ewsKCIu/8/FyKEN3c3FBHR4clNj09LUU+lyYgXCxOrKCggMLCwpiFh4ezi5AH+v7+nlZWVsjb25sV54XBLCwstOTCMPD2QEpOTlbkwdzd3dmF4TzVMS8vLwoKCqL393dWt7i4WBEHvNjYWMrIyJAqaCs1NVWRB/Pw8KDm5mY2MVE7IiLCEsvPz2djhLHCxMHjiM8dHBxkkwO5ExMTVrm7u7uWSaUnTUBvb2/sojs7O9k2hAGAT4axtrZGjo6OZDKZFIBQNDg4mM02WfCFhIQofF9RaGgoA6Ql1JYB4eJbWlqkiFmYWDjHzwBpCYMKQF1dXRQQEEAvLy9ShKi7u5v8/f2ZLzIykpqamqSIWbKvp6eH/Pz86Pn5WYoQ8/n6+tLT05Pksa1vA3p4eKD19XXy8fExAP3XgDCgeJwdHR2xbUgNCIIPMHgfhNzDw0Np6/uATk5OKDMzkxoaGjTXub6+PiotLWX1UOOnAOG9MDs7m9XFY1M4QGph7cAMLioqYouhLFuAeNnKtUcbGxvk4ODAHqdaysnJYQBl/RSg7e1tcnZ2pqWlJbYtNCAsdFhocaH8HQV9Bghw0BwgV76j4FtdXbUyzFS1fhJQVFSUZl15oef1awDhxHHBuEgt6QFCLtprDBovPObQXKgN6ww/UPgba5yTkxP7Vy3UBqCsrCzJow8IoLXq4rH9+voq7W2uu7W1RS4uLrS8vMx8wgKqqKhgjyb1nSNLD1BVVRVrtdW5aDs3NzetTL3f6OgoxcTEsBgaErWSkpLYizXWKVl6gORjqQ13Nj8x0BLjbsOkwKsEJBwgDDzg1NTUsLdZW9IChIutrKxkn46+uubwwp2GY/ODxwsw1J2dHiB71yAZBn9XCQdIq83Wki1A8H23pZZlADJLF1BZWZnVosp/DdADhPZXL/czfQdQSkoK1dXVKWrGxcWRp6fnvwI0OTnJHpFoGuTjNjY2UmJiItsvPT2damtrFXXj4+NpaGiIpqamKDo62io3ISFBAc2WbALC4GgtquqXV7zf8D4MKHxauVprlS1hXxzHFiDcGWhC1MrLy1PUxIDk5ubaDQh3RmBgoAIQtLOzQ66urpbjAgovfL7h68odIITPOm5ubpZYWlqaFPlcmoAwKFi0tRZVfDTkhf20fPbk6gn7qhsHXoipP95Cp6enippoML4CCHXVjQP0+PjIujv5uHxzAuHllq8rNxiQOhc/xNkrTUD/N30FkGj6KwD19/ezz0K/UX8FoN8sA5DgMgAJLgOQ4LIAwgsafmdHe2iYOMYAAQw+u+OnBcPEMvY/S/HlwJCIIvoDLf1g8oBJ51AAAAAASUVORK5CYII=" />
+          </ui:ClickImage.Image>
+          <ui:ClickImage.Target>
+            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;">
+              <ui:Target.TimeoutMS>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:Target.TimeoutMS>
+              <ui:Target.WaitForReady>
+                <InArgument x:TypeArguments="ui:WaitForReady" />
+              </ui:Target.WaitForReady>
+            </ui:Target>
+          </ui:ClickImage.Target>
+        </ui:ClickImage>
+        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Form1 Mycrm'" sap:VirtualizedContainerService.HintSize="433.6,347.2" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="272e830a68429717dcd7fdb8d0bc2f95" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;">
+          <ui:WindowScope.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'WindowsForms10.Window.8...'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="ClickImage_4" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+                  <ui:ClickImage.CursorPosition>
+                    <ui:CursorPosition OffsetX="143" OffsetY="330" Position="TopRight" />
+                  </ui:ClickImage.CursorPosition>
+                  <ui:ClickImage.Image>
+                    <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAADwAAAAaCAYAAADrCT9ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAL6SURBVFhH7ZZLS2pRFMfPN2iQNRIMrA/QR5AahpEhURnRQIeCvaDMsAYh0TACH0RRYD5wIEhZg6KZTous7F1QooTQa7gua8NenL31opEXwuvgB57/2mvrb7vPPkcpFovwP9EQrncawvVOQ7jeaQjLOJ1O6O7uhqmpqZLa0dER9Pf3w9XVVUntt1JRuKenBxRFYdJyLRqNgkajgdPT05Lab6Uq4Y6ODrBarRAOh+H5+Zlqv004n89DLBaDTCZTto5UJTw5OVlWrlz28vLCrjn39/dUQ66vr4U6gov4+PhYkqn75N6zszMoFApC/e7uDtra2mBjY0PI1dRcOB6PQ0tLCzE/P081xGKxCHUkFAqBx+MRsp2dHaEPGRkZoXp7ezucnJwI9ZoK48G0tbUFfX19sL+/z2qy8Pr6OoyNjbGcMzs7y/r5fEajEUwmkzDGZrOxQ1HO1tbWWM/T0xMMDw/D8vIy1be3t9k8u7u7NDdu6UQiARcXF5TJVC2Mn1Faq9WyL8Nr/GK18N7eHgQCAepFXC4XdHV10TUKj4+PC2MwczgcQtbb20vZ7e0t6HQ62NzcpDpmlf7Ncih4g8vc3NzQALUw3mejo6Ns+6VSqRJhJJvNsgXhmM3mmgnb7Xaa1+v1Qmtra0Xh19dXuLy8JDclEomAzOHhITWoheVMFn54eGA/AHcBp6mpqWbCzc3NwtwIPjl4D8qdn58LBx7f5txN+fr6ApmPjw9q+I7w0tISq+HW56BcrYRXV1eFuZFcLkc9+ETo7OyEYDBIGfL5+Uluyvv7O8i8vb3R4HLCx8fH7DDCydXC8v2Kb2l6vf6f3MN4kA0NDQmH1t9OabXbtw4tNXNzc+wNTC2cTCbZQkxMTDDws8Fg+LEwPttXVlZgenqa5sbfhAuaTqeph49TZzIVhd1uN/j9/pIcVxsXY3BwkL0Q8Bz/fcyRg4MDNm5mZobqCwsL4PP56JpneAips8XFxbIZn3tgYIAdRup6NVQUrjcawvVOQ7i+KcIf+v6P4DqFBU4AAAAASUVORK5CYII=" />
+                  </ui:ClickImage.Image>
+                  <ui:ClickImage.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd ctrlname='tabControl1' /&gt;&lt;wnd ctrlname='tabPagePeople' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:ClickImage.Target>
+                </ui:ClickImage>
+              </Sequence>
+            </ActivityAction>
+          </ui:WindowScope.Body>
+        </ui:WindowScope>
+      </Sequence>
+    </FlowStep>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,343.6</av:Point>
+          <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:OnImageAppear ContinueOnError="{x:Null}" FoundElement="{x:Null}" DisplayName="On Image Appear 'MyCRM.exe My'" sap:VirtualizedContainerService.HintSize="508.8,615.2" sap2010:WorkflowViewState.IdRef="OnImageAppear_2" RepeatForever="False">
+        <ui:OnImageAppear.Body>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="475.2,468" sap2010:WorkflowViewState.IdRef="Sequence_13">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window '     Wind Notepad'" sap:VirtualizedContainerService.HintSize="433.6,375.2" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="83df5356e92205b32f7700af0846ecfc" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='*메모장' /&gt;">
+              <ui:WindowScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,228" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'editable text  텍스트 편집'" EmptyField="True" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_4" SendWindowMessages="False" SimulateType="False" Text="abcdefg">
+                      <ui:TypeInto.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="3f0c6836413af1c60dfffb9f10585dc8" Selector="&lt;wnd aaname='가로' cls='Edit' /&gt;&lt;ctrl name='텍스트 편집' role='editable text' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:TypeInto.Target>
+                    </ui:TypeInto>
+                  </Sequence>
+                </ActivityAction>
+              </ui:WindowScope.Body>
+            </ui:WindowScope>
+          </Sequence>
+        </ui:OnImageAppear.Body>
+        <ui:OnImageAppear.Image>
+          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAbCAYAAADszNYXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAI9SURBVFhH7ZW7rylRFMZvoqFA/AVCQqdTCq1KIloJ8WoUdFQkElQaajqFgnhVCo+CwqvxShAJISg8/oN1sncykzNmH8fghpur+CV869uTz1hrrz/n8xn+VT7hX8Un/Kv4f8Jvt1vw+XzgcDiIpNNp7NvtduD3+6HRaLCe8Uw4h/d6vWA2m1lIpVLweDzYt1qtQC6XQyqVYj3jmTzcNofDAdrtNlitVohEIljbbDag1+shm82y/NdA51qtFuz3e2L9kofDL5dLUCgUkEwm4Xg80jr6UafTieH9jXK5DBKJBHq9HrF+yUPha7UaaDQayGQysFgsaB29QYPBAPl8nvap1WoGdrud9lOUSiUQCoXQ7XZZNRIPhS8UCiAWi6Hf7zP0y54vFovA5/PxEMdiMUwoFAK32w3z+Zw+N5lMIB6P43+T0q5xd/hmswnhcBhcLhfMZjNGjRReJBIx2oF6y7e2CIm7wg8GAwgEAmCxWIj1tw5vMpnwtYiGklR/6/BGo5G+00ncG75er4NWq4XhcEhr1+AUntqwwWAQKpUK0YO4Nzyl/ZXbBt0CMpkMbDYbJBIJFtVqFftI4QUCAZ4TyouG3el0Moa90+lgbTqd0to1OIVfr9d4c6pUKiLRaBT7qA2by+XwdxSex+OBUqmkvT8NOxc49zzaomhQSXzfsOgztWGptkFvluS9l5vDo5a43JI/odPpYDQa0WdJPf8Mbg4/Ho/p7fgbaEuivv9+9lJ7Bpzb5p34hH8Vn/Cv4QxfRe7RpczBXvUAAAAASUVORK5CYII=" />
+        </ui:OnImageAppear.Image>
+        <ui:OnImageAppear.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;">
+            <ui:Target.TimeoutMS>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:Target.TimeoutMS>
+            <ui:Target.WaitForReady>
+              <InArgument x:TypeArguments="ui:WaitForReady" />
+            </ui:Target.WaitForReady>
+          </ui:Target>
+        </ui:OnImageAppear.Target>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:OnImageAppear>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">200,443.6</av:Point>
+          <av:Size x:Key="ShapeSize">200,68.8</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="데스크톱" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_15">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window '     Wind Notepad'" sap:VirtualizedContainerService.HintSize="433.6,375.2" sap2010:WorkflowViewState.IdRef="WindowScope_4" InformativeScreenshot="83df5356e92205b32f7700af0846ecfc" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='*메모장' /&gt;">
+          <ui:WindowScope.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,228" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Type Into 'editable text  텍스트 편집'" EmptyField="True" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" SendWindowMessages="False" SimulateType="False" Text="abcdefg">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="3f0c6836413af1c60dfffb9f10585dc8" Selector="&lt;wnd aaname='가로' cls='Edit' /&gt;&lt;ctrl name='텍스트 편집' role='editable text' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+              </Sequence>
+            </ActivityAction>
+          </ui:WindowScope.Body>
+        </ui:WindowScope>
+      </Sequence>
+    </FlowStep>
+  </Flowchart>
+</Activity>
